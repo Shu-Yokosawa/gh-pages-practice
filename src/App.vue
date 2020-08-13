@@ -1,15 +1,18 @@
 <template>
   <div id="app">
-  <router-link to="/">Go to page1</router-link>
-  <router-link to="/page2">Go to page2</router-link>
+    <tab-menu></tab-menu>
     <img src="./assets/curry.jpg">
     <router-view/>
   </div>
 </template>
 
 <script>
+import TabMenu from '@/components/TabMenu'
 export default {
-  name: 'App'
+  name: 'App',
+  components: {
+    TabMenu
+  }
 }
 </script>
 

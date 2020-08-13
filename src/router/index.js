@@ -1,8 +1,10 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 
-import page1 from '@/components/page1'
-import page2 from '@/components/page2'
+import Top from '@/components/Top'
+import Profile from '@/components/Profile'
+import Skills from '@/components/Skills'
+import Contact from '@/components/Contact'
 
 Vue.use(Router)
 
@@ -10,11 +12,19 @@ export default new Router({
   routes: [
     {
       path: '/',
-      component: page1
+      component: Top
     },
     {
-      path: '/page2',
-      component: page2
+      path: '/profile',
+      component: Profile
+    },
+    {
+      path: '/skills',
+      component: Skills
+    },
+    {
+      path: '/contact',
+      component: Contact
     }
   ]
 })

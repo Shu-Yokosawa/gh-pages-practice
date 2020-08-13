@@ -1,9 +1,8 @@
 <template>
   <div>
     <p>
-      ここはページ2です。
+      Welcome to my Portfolio site.
     </p>
-    <router-link to="/">Go to page1</router-link>
   </div>
 </template>
 

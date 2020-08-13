@@ -1,6 +1,7 @@
 # my-project
 
-> A Vue.js project
+> A Vue.js project.
+
 > Web site link https://shu-yokosawa.github.io/gh-pages-practice/
 
 ## Build Setup
